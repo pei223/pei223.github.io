@@ -1,0 +1,99 @@
+.profile {
+    margin-bottom: 120px !important;
+    animation: 1.0s ease-in fadein;
+    padding-top: 40px;
+}
+
+@media only screen and (min-width: 601px) {
+    .profile {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.profile-name {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+.profile-image {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+}
+
+.profile-text-area .email-area {
+    margin-top: 10px;
+}
+
+.profile-text-area .email {
+    display: block;
+    margin: 0px;
+}
+
+.email-link {
+    border-bottom: 1px gainsboro solid;
+}
+
+.profile-text-area .description {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.profile-text-area {
+    padding-left: 20px !important;
+}
+
+.profile-detail {
+    opacity: 0;
+    margin-bottom: 80px;
+}
+
+.profile-detail-fadein {
+    animation: 1.0s ease-out side-fadein 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes side-fadein {
+    from {
+        opacity: 0;
+        transform: translateX(-50px)
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.detail-part {
+    text-align: center;
+    padding: 20px !important;
+}
+
+.detail-part .icon {
+    font-size: 6rem;
+    color: #3949ab !important;
+    text-align: center;
+}
+
+.detail-part .heading {
+    font-size: 1.75em;
+}
+
+.detail-part .item-list li {
+    margin-bottom: 10px;
+}
+
+.tech-element-list {
+    text-align: left;
+}

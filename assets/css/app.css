@@ -1,0 +1,100 @@
+body {
+    font-family: Meiryo;
+}
+
+.header {
+    background-color: #3949ab;
+}
+
+.sidenav {
+    background-color: white !important;
+    width: 400px !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .sidenav {
+        width: 250px !important;
+    }
+}
+
+.nav-dropdown {
+    width: 200px !important;
+    background-color: #3949ab !important;
+}
+
+.nav-dropdown li:hover {
+    background-color: #3949abff !important;
+}
+
+.nav-dropdown .link {
+    color: white;
+}
+
+.external-links-button {
+    display: flex;
+    align-items: center;
+}
+
+.side-bar-divider {
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
+    background-color: gainsboro;
+    height: 1px;
+}
+
+.side-content {
+    padding: 0px 10px 10px 10px;
+}
+
+.side-content .link {
+    color: black !important;
+    padding: 0px 20px !important;
+    font-size: 1.1em;
+}
+
+.side-bar-container {
+    padding-top: 30px;
+}
+
+.side-bar-heading {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 2em;
+    padding-left: 10px;
+}
+
+.container {
+    padding-top: 56px;
+}
+
+.heading {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px gainsboro solid;
+}
+
+.sub-heading {
+    padding-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.coming-soon {
+    text-align: center;
+}
+
+.tech-element {
+    display: inline-block;
+    text-align: center;
+    background-color: #009250;
+    color: white;
+    border-radius: 20px;
+    min-width: 50px;
+    padding: 3px 18px 1px 18px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+    font-size: 0.9em;
+}

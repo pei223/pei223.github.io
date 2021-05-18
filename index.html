@@ -1,0 +1,192 @@
+<head>
+    <title>pei portfolio</title>
+    <!-- materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- original -->
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/application.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {});
+            var elems = document.querySelectorAll('.dropdown-trigger');
+            var instances = M.Dropdown.init(elems, {
+                coverTrigger: false
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- header -->
+    <div>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper header">
+                    <a href="#" data-target="slide-out" class="button-collapse sidenav-trigger show-on-large"><i
+                            class="material-icons">menu</i></a>
+                    <a href="./index.html" class="brand-logo center">Portfolio</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a class="link" href="./career.html">業務経験</a></li>
+                        <li><a class="link" href="./output.html">成果物</a></li>
+                        <li>
+                            <a class="link dropdown-trigger external-links-button" data-target='external-links-dropdown'>
+                                <i class="small material-icons">expand_more</i>&nbsp;外部リンク</a>
+                        </li>
+                        <ul id="external-links-dropdown" class="dropdown-content nav-dropdown">
+                            <li><a href="https://twitter.com/pei2_dir" target="_blank" class="link"><i
+                                        class="fab fa-twitter left"></i>Twitter</a></li>
+                            <li><a href="https://github.com/pei223" target="_blank" class="link"><i
+                                        class="fab fa-github left"></i>Github</a></li>
+                            <li><a href="https://deecode.net" target="_blank" class="link"><i
+                                        class="fab fa-wordpress left"></i>Blog</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </nav>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        </div>
+    </div>
+    <!-- side bar -->
+    <div id="slide-out" class="sidenav fixed drawer-contents side-bar-container">
+        <div class="side-content">
+            <h3 class="side-bar-heading">Pages</h3>
+            <ul>
+                <li><a class="link" href="./index.html">TOP</a></li>
+                <li><a class="link" href="./career.html">業務経験</a></li>
+                <li><a class="link" href="./output.html">成果物</a></li>
+            </ul>
+        </div>
+        <p class="side-bar-divider"></p>
+        <div class="side-content">
+            <h3 class="side-bar-heading">External links</h3>
+            <ul>
+                <li><a class="link" href="https://twitter.com/pei2_dir" target="_blank"><i
+                            class="fab fa-twitter left"></i>Twitter</a></li>
+                <li><a class="link" href="https://github.com/pei223" target="_blank"><i
+                            class="fab fa-github left"></i>Github</a></li>
+                <li><a class="link" href="https://deecode.net" target="_blank"><i
+                            class="fab fa-wordpress left"></i>Blog</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row profile">
+            <div class="col s12 m4">
+                <img src="assets/image/profile.jpg" class="profile-image circle">
+            </div>
+            <div class="col s12 m8 profile-text-area">
+                <h1 class="profile-name">Pei</h1>
+                <div class="email-area">
+                    <label for="email">e-mail</label>
+                    <div id="email" class="email">
+                        <a href="mailto:peidparc@gmail.com" class="email-link">peidparc@gmail.com</a>
+                    </div>
+                </div>
+                <div class="description">
+                    Japanese Mobile/Web/Image recognition Engineer.
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-detail profile-detail-fadein">
+            <h2 class="heading">Details</h2>
+            <div class="row">
+                <div class="detail-part col m4 s12">
+                    <h2 class="icon">
+                        <i class="medium material-icons">navigation</i>
+                    </h2>
+                    <h3 class="sub-heading">技術領域</h3>
+                    <ul class="item-list">
+                        <li>画像認識・画像処理</li>
+                        <li>モバイルアプリ(Android)</li>
+                        <li>Webシステム(フロントエンド)</li>
+                    </ul>
+                </div>
+                <div class="detail-part col m4 s12">
+                    <h2 class="icon">
+                        <i class="medium material-icons">info_outline</i>
+                    </h2>
+                    <h3 class="sub-heading">実務経験</h3>
+                    <ul class="item-list">
+                        <li>Webサービス開発フロントエンド</li>
+                        <li>画像認識, 画像処理技術検証</li>
+                        <li>画像処理, 画像認識アプリ開発</li>
+                        <li>Androidアプリ開発</li>
+                        <li>ECサイト開発</li>
+                    </ul>
+                </div>
+                <div class="detail-part col m4 s12">
+                    <h2 class="icon">
+                        <i class="medium material-icons">star</i>
+                    </h2>
+                    <h3 class="sub-heading">取得した資格・賞</h3>
+                    <ul class="item-list">
+                        <li>情報処理学会　学生奨励賞</li>
+                        <li>基本情報技術者</li>
+                        <li>応用情報技術者</li>
+                        <li>JDLA Deep Learning for GENERAL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-detail">
+            <h2 class="heading">技術要素</h2>
+            <h3 class="sub-heading">プラットフォーム・技術領域</h3>
+            <div class="row">
+                <div class="tech-element-list col m6 s12">
+                    <span class="tech-element">AI</span>
+                    <span class="tech-element">画像処理</span>
+                    <span class="tech-element">画像認識</span>
+                    <span class="tech-element">Deep Learning</span>
+                    <span class="tech-element">Android</span>
+                    <span class="tech-element">Webバックエンド</span>
+                    <span class="tech-element">Webフロントエンド</span>
+                </div>
+            </div>
+
+            <h3 class="sub-heading">Programming languages</h3>
+            <div class="row">
+                <div class="tech-element-list col m6 s12">
+                    <span class="tech-element">Python</span>
+                    <span class="tech-element">React</span>
+                    <span class="tech-element">TypeScript</span>
+                    <span class="tech-element">HTML</span>
+                    <span class="tech-element">CSS</span>
+                    <span class="tech-element">JavaScript</span>
+                    <span class="tech-element">jQuery</span>
+                </div>
+            </div>
+
+            <h3 class="sub-heading">Tools/Libraries</h3>
+            <div class="row">
+                <div class="tech-element-list col m6 s12">
+                    <span class="tech-element">Django</span>
+                    <span class="tech-element">OpenCV</span>
+                    <span class="tech-element">PyTorch</span>
+                    <span class="tech-element">React</span>
+                    <span class="tech-element">jQuery</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,94 @@
+<head>
+    <title>pei portfolio 経歴</title>
+    <!-- materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- original -->
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/output.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/application.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {});
+            var elems = document.querySelectorAll('.dropdown-trigger');
+            var instances = M.Dropdown.init(elems, {
+                coverTrigger: false
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- header -->
+    <div>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper header">
+                    <a href="#" data-target="slide-out" class="button-collapse sidenav-trigger show-on-large"><i
+                            class="material-icons">menu</i></a>
+                    <a href="./index.html" class="brand-logo center">Portfolio</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a class="link" href="./career.html">業務経験</a></li>
+                        <li><a class="link" href="./output.html">成果物</a></li>
+                        <li>
+                            <a class="link dropdown-trigger external-links-button" data-target='external-links-dropdown'>
+                                <i class="small material-icons">expand_more</i>&nbsp;外部リンク</a>
+                        </li>
+                        <ul id="external-links-dropdown" class="dropdown-content nav-dropdown">
+                            <li><a href="https://twitter.com/pei2_dir" target="_blank" class="link"><i
+                                        class="fab fa-twitter left"></i>Twitter</a></li>
+                            <li><a href="https://github.com/pei223" target="_blank" class="link"><i
+                                        class="fab fa-github left"></i>Github</a></li>
+                            <li><a href="https://deecode.net" target="_blank" class="link"><i
+                                        class="fab fa-wordpress left"></i>Blog</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </nav>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        </div>
+    </div>
+    <!-- side bar -->
+    <div id="slide-out" class="sidenav fixed drawer-contents side-bar-container">
+        <div class="side-content">
+            <h3 class="side-bar-heading">Pages</h3>
+            <ul>
+                <li><a class="link" href="./index.html">TOP</a></li>
+                <li><a class="link" href="./career.html">業務経験</a></li>
+                <li><a class="link" href="./output.html">成果物</a></li>
+            </ul>
+        </div>
+        <p class="side-bar-divider"></p>
+        <div class="side-content">
+            <h3 class="side-bar-heading">External links</h3>
+            <ul>
+                <li><a class="link" href="https://twitter.com/pei2_dir" target="_blank"><i
+                            class="fab fa-twitter left"></i>Twitter</a></li>
+                <li><a class="link" href="https://github.com/pei223" target="_blank"><i
+                            class="fab fa-github left"></i>Github</a></li>
+                <li><a class="link" href="https://deecode.net" target="_blank"><i
+                            class="fab fa-wordpress left"></i>Blog</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h3 class="coming-soon">Coming soon</h3>
+    </div>
+</body>

@@ -1,24 +1,24 @@
 <head>
-    <title>pei portfolio 経歴</title>
+    <title>成果物一覧 - Pei Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- lazyload -->
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script>
+
     <!-- original -->
     <link rel="stylesheet" href="./assets/css/app.css">
     <link rel="stylesheet" href="./assets/css/output.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <script src="./assets/js/output.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="./assets/js/application.js"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.sidenav');
@@ -89,6 +89,157 @@
 
 
     <div class="container">
-        <h3 class="coming-soon">Coming soon</h3>
+        <h1 class="page-title">成果物一覧</h1>
+
+        <div class="work-block row start">
+            <div class="col m5 s12 work-image">
+                <img class="responsive-img" src="assets/image/pomodoro.png" />
+            </div>
+            <div class="col m7 s12 work-description">
+                <div class="work-text-area">
+                    <h2 class="work-title">ポモドーロタイマー</h2>
+                    <p class="work-text-line">ポモドーロ法で作業時間を計測するAndroidアプリ。</p>
+                    <p class="work-text-line">Google playでリリース。</p>
+                </div>
+                <div class="work-link-area">
+                    <a class="work-link" href="https://play.google.com/store/apps/details?id=com.p2app.pomodoro_timer" target="_blank">https://play.google.com/store/apps/details?id=com.p2app.pomodoro_timer</a>
+                </div>
+                <div class="work-tech-elements-area col m6 s12">
+                    <span class="tech-element">Androidアプリ</span>
+                    <span class="tech-element">Flutter</span>
+                    <span class="tech-element">Dart</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-divider"></div>
+
+        <div class="work-block row">
+            <div class="col m5 s12 work-image push-m7">
+                <img class="responsive-img" src="assets/image/deepext_with_lightning.jpg" />
+            </div>
+            <div class="col m7 s12 work-description pull-m5">
+                <div class="work-text-area">
+                    <h2 class="work-title">deepext-with-lightning</h2>
+                    <p class="work-text-line">PyTorch/PyTorch-Lightningを用いてDeepLearningの検証を加速化するツール/ライブラリ。</p>
+                    <p class="work-text-line">セマンティックセグメンテーションはShelfNet/Unet, 物体検出はEfficientDet, 分類はAttention Branch Network/EfficientNet/MobileNet/ResNet/ResNeSt/ResNeXtを実装。
+                    </p>
+                </div>
+                <div class="work-link-area">
+                    <a class="work-link" href="https://github.com/pei223/deepext_with_lightning" target="_blank">https://github.com/pei223/deepext_with_lightning/</a>
+                </div>
+                <div class="work-tech-elements-area col m6 s12">
+                    <span class="tech-element">Python</span>
+                    <span class="tech-element">PyTorch</span>
+                    <span class="tech-element">Deep Learning</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-divider"></div>
+
+        <div class="work-block row">
+            <div class="col m5 s12 work-image push-m7">
+                <img class="responsive-img" src="assets/image/blog_screen.jpg" />
+            </div>
+            <div class="col m7 s12 work-description pull-m5">
+                <div class="work-text-area">
+                    <h2 class="work-title">ブログ deecode.net</h2>
+                    <p class="work-text-line">技術情報を発信。 アクセス数は月5000PV程度(5/18現在)</p>
+                    <p class="work-text-line">内容は主に画像処理/DeepLearning/Python/Webフロントエンドについてなど。</p>
+                </div>
+                <div class="work-link-area">
+                    <a class="work-link" href="https://deecode.net/" target="_blank">https://deecode.net/</a>
+                </div>
+                <div class="work-tech-elements-area col m6 s12">
+                    <span class="tech-element">Wordpress</span>
+                    <span class="tech-element">HTML</span>
+                    <span class="tech-element">CSS</span>
+                    <span class="tech-element">JavaScript</span>
+                    <span class="tech-element">jQuery</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-divider"></div>
+
+        <div class="work-block row">
+            <div class="col m5 s12 work-image">
+                <img class="responsive-img" src="assets/image/labelpt.jpg" />
+            </div>
+            <div class="col m7 s12 work-description">
+                <div class="work-text-area">
+                    <h2 class="work-title">LabelPt</h2>
+                    <p class="work-text-line">セマンティックセグメンテーションのアノテーションツール。</p>
+                    <p class="work-text-line">基本的なブラシサイズ・透明度変更・ズーム・Undo/Redoなどが可能。</p>
+                    <p class="work-text-line">描画モードはペイント・ポリゴン・直線・長方形・楕円を選択可能。</p>
+                    <p class="work-text-line">Pypiでリリースしており、pip install labelptでインストール可能。</p>
+                </div>
+                <div class="work-link-area">
+                    <a class="work-link" href="https://pypi.org/project/labelpt/" target="_blank">https://pypi.org/project/labelpt/</a>
+                    <a class="work-link" href="https://github.com/pei223/labelpt" target="_blank">https://github.com/pei223/labelpt</a>
+                </div>
+                <div class="work-tech-elements-area col m6 s12">
+                    <span class="tech-element">デスクトップアプリ</span>
+                    <span class="tech-element">React.js</span>
+                    <span class="tech-element">TypeScript</span>
+                    <span class="tech-element">Python</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-divider"></div>
+
+        <div class="work-block row">
+            <div class="col m5 s12 work-image push-m7">
+                <img class="responsive-img" src="assets/image/labelcls.jpg" />
+            </div>
+            <div class="col m7 s12 work-description pull-m5">
+                <div class="work-text-area">
+                    <h2 class="work-title">labelcls</h2>
+                    <p class="work-text-line">画像分類のアノテーションツール。</p>
+                    <p class="work-text-line">画像を見てボタンクリックするだけでCSV形式でアノテーションファイルが生成される。</p>
+                    <p class="work-text-line">Pypiでリリースしており、pip install labelclsでインストール可能。</p>
+                </div>
+                <div class="work-link-area">
+                    <a class="work-link" href="https://pypi.org/project/labelcls/" target="_blank">https://pypi.org/project/labelcls/</a>
+                    <a class="work-link" href="https://github.com/pei223/labelcls" target="_blank">https://github.com/pei223/labelcls</a>
+                </div>
+                <div class="work-tech-elements-area col m6 s12">
+                    <span class="tech-element">デスクトップアプリ</span>
+                    <span class="tech-element">Vue.js</span>
+                    <span class="tech-element">JavaScript</span>
+                    <span class="tech-element">Python</span>
+                    <span class="tech-element">materialize</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-divider"></div>
+
+        <div class="work-block row last">
+            <div class="col m5 s12 work-image">
+                <img class="responsive-img" src="assets/image/homepage_screen.jpg" />
+            </div>
+            <div class="col m7 s12 work-description">
+                <div class="work-text-area">
+                    <h2 class="work-title">企業ホームページ改修</h2>
+                    <p class="work-text-line">レスポンシブ対応、既存デザインをベースにレイアウト修正など実施。</p>
+                </div>
+                <div class="work-link-area">
+                    <a class="work-link" href="http://www.kk-hayakawa.com/service.html" target="_blank">http://www.kk-hayakawa.com/service.html</a>
+                </div>
+                <div class="work-tech-elements-area  col m6 s12">
+                    <span class="tech-element">HTML</span>
+                    <span class="tech-element">CSS</span>
+                    <span class="tech-element">Bootstrap</span>
+                    <span class="tech-element">jQuery</span>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <script>
+        lazyload(document.querySelectorAll("img"));
+    </script>
 </body>

@@ -67,6 +67,11 @@ body {
     padding-top: 56px;
 }
 
+.page-title {
+    font-size: 3em;
+    text-align: center;
+}
+
 .heading {
     margin-top: 0px;
     margin-bottom: 10px;

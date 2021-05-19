@@ -1,6 +1,6 @@
 $(document).ready(function($) {
     $(window).scroll(function() {
-        var windowHeight = $(window).height();
+        var windowHeight = window.innerHeight;
         var scrollVal = $(window).scrollTop();
         $('.profile-detail').each(function() {
             var nodeTopPosition = $(this).offset().top;      

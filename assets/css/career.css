@@ -1,0 +1,47 @@
+.page-title {
+    margin-bottom: 50px;
+}
+
+.project {
+    margin-bottom: 100px;
+}
+
+.project-title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: rgba(0, 0, 0, 0.7) 1px solid;
+}
+
+.table-row {
+    display: flex !important;
+    align-items: stretch;
+    margin: 0px;
+}
+
+.table-outline-area {
+    background-color: gainsboro;
+    border-bottom: 1px white solid;
+    padding: 20px 10px !important;
+}
+
+.table-outline-area h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.table-content {
+    border-bottom: 1px gainsboro solid;
+    border-right: 1px gainsboro solid;
+    padding: 5px 10px !important;
+}
+
+.table-content p {}
+
+.start {
+    border-top: 1px gainsboro solid;
+}

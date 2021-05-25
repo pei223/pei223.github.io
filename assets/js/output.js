@@ -11,7 +11,7 @@ function fadeinElements() {
     var scrollVal = $(window).scrollTop();
     $('.work-block').each(function(index) {
         var nodeTopPosition = $(this).offset().top;      
-        if (scrollVal + windowHeight > nodeTopPosition + 100) {
+        if (scrollVal + windowHeight > nodeTopPosition + 30) {
             $(this).addClass(index % 2 === 0 ? "left-fadein" : "right-fadein");
         }
     });

@@ -10,35 +10,35 @@
     border: 1px gainsboro solid;
 }
 
-.work-title {
-    font-size: 2.5em;
-    font-weight: 500;
-    margin: 10px 0px 20px 0px;
-}
-
 .work-link-area {
     padding-bottom: 20px;
 }
 
-.work-link {
+.work-link-area a {
     color: #1e88e5;
     display: block;
     padding-bottom: 3px;
     word-wrap: break-word;
 }
 
-.work-link:hover {
+.work-link-area a:hover {
     color: #0d47a1;
 }
 
-.work-text-line {
+.work-text-area {
+    padding-bottom: 40px;
+}
+
+.work-text-area p {
     font-size: 1em;
     padding-bottom: 8px;
     margin: 0px;
 }
 
-.work-text-area {
-    padding-bottom: 40px;
+.work-text-area h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+    margin: 10px 0px 20px 0px;
 }
 
 .work-divider {

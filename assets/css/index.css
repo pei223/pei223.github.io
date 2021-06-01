@@ -1,6 +1,6 @@
 .profile {
     margin-bottom: 120px !important;
-    animation: 1.0s ease-in fadein;
+    animation: 0.8s ease-in fadein;
     padding-top: 40px;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .profile-detail-fadein {
-    animation: 1.0s ease-out side-fadein 0.2s;
+    animation: 0.8s ease-out side-fadein 0.2s;
     animation-fill-mode: forwards;
 }
 
